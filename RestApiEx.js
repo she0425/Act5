@@ -11,7 +11,7 @@ export default function RestApiEx() {
     setIsLoading(true); // Turn on loading text
     try {
       // 1. FETCHING FROM A REST API
-      const response = await fetch('https://jsonplaceholder.typicode.com/users/4');
+      const response = await fetch('https://jsonplaceholder.typicode.com/users/21');
       
       // 2. PARSING THE JSON
       const data = await response.json();
